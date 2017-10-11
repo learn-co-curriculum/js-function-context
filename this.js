@@ -6,7 +6,7 @@ const listEmployees = function() {
 
 const tgif = {
   name: "T.G.I. Friday's",
-  employees: [{ name: 'Alex' }, { name: 'Rachel' }, { name: 'Max' }],
+  employees: [{ name: 'Alex' }, { name: 'Terrance' }, { name: 'Daniel' }],
   listEmployees: listEmployees
 };
 
