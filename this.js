@@ -1,5 +1,5 @@
 const listEmployees = function() {
-  this.employees.forEach(employee => {
+  this.employees.forEach(function(employee) {
     console.log(employee.name);
   });
 };
