@@ -1,6 +1,6 @@
 const listEmployees = function() {
-  this.employees.forEach(employee => {
-    console.log(`Employee: ${employee.name}`);
+  this.employees.forEach(function(employee) {
+    console.log(`Employee: ${employee.name} works at ${this.name}`);
   });
 };
 
